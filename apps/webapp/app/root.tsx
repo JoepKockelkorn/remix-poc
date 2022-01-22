@@ -32,6 +32,7 @@ export default function App() {
     <Document>
       <Layout>
         <Outlet />
+        <Link to="/posts">Posts</Link>
       </Layout>
     </Document>
   );
